@@ -3,11 +3,11 @@ var { describe, test } = require('node:test')
 
 var std = require('../../index.js')
 
-describe('set', function () {
+describe('omit', function () {
   test('basic', function () {
-    var data = {}
-    var result = std.set(data, 'hello', 'bye')
+    var data = { hello: 'bye' }
+    var result = std.omit(data, 'hello')
     assert.equal(data.hello, 'bye')
-    assert.equal(result.hello, 'bye')
+    assert.equal(result.hello, undefined)
   })
 })

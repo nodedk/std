@@ -3,11 +3,10 @@ var { describe, test } = require('node:test')
 
 var std = require('../../index.js')
 
-describe('set', function () {
+describe('clone', function () {
   test('basic', function () {
-    var data = {}
-    var result = std.set(data, 'hello', 'bye')
-    assert.equal(data.hello, 'bye')
+    var data = { hello: 'bye' }
+    var result = std.clone(data)
     assert.equal(result.hello, 'bye')
   })
 })
