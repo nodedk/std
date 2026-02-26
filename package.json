@@ -1,6 +1,6 @@
 {
   "name": "@nodedk/std",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NodeDK Standard Library",
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "main": "index.js",
