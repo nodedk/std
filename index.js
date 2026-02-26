@@ -9,8 +9,5 @@ module.exports = {
   set,
   pick,
   omit,
-  clone,
-  put: function (data, ...args) {
-    return set(clone(data), ...args)
-  }
+  clone
 }
