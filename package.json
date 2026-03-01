@@ -1,6 +1,6 @@
 {
   "name": "@nodedk/pojo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "NodeDK POJO",
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "main": "index.js",
