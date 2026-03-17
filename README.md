@@ -1,39 +1,39 @@
-# NodeDK POJO
+# NodeDK Struct
 
-The NodeDK POJO Library.
+The NodeDK Struct Library.
 
 Javascript object manipulation. Supports dot-notation.
 
 ### Install
 
 ```sh
-npm i @nodedk/pojo
+npm i @nodedk/struct
 ```
 
 ### Usage
 
 ```js
-var pojo = require('@nodedk/pojo')
+var struct = require('@nodedk/struct')
 
 var data = {}
 
 // Set - set data with dot notation
-var result = pojo.set(data, 'a', 1)
+var result = struct.set(data, 'a', 1)
 
 // Get - get data with dot notation
-var result = pojo.get(data, 'a')
+var result = struct.get(data, 'a')
 
 // Pick - whitelist object values
-var result = pojo.pick(data, 'a')
+var result = struct.pick(data, 'a')
 
 // Omit - blacklist object values
-var result = pojo.omit(data, 'a')
+var result = struct.omit(data, 'a')
 
 // Clone - deep clone an object
-var result = pojo.clone(data)
+var result = struct.clone(data)
 
 // Immutable set - combine clone with set
-var { set, clone } = require('@nodedk/pojo')
+var { set, clone } = require('@nodedk/struct')
 var immutableResult = set(clone(data), 'a', 1)
 ```
 

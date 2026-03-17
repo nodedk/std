@@ -1,12 +1,12 @@
 var assert = require('node:assert')
 var { test, describe } = require('node:test')
 
-var pojo = require('../../index.js')
+var struct = require('../../index.js')
 
 describe('set', function () {
   test('basic', function () {
     var data = {}
-    var result = pojo.set(data, 'hello', 'bye')
+    var result = struct.set(data, 'hello', 'bye')
     assert.equal(data.hello, 'bye')
     assert.equal(result.hello, 'bye')
   })

@@ -1,20 +1,20 @@
 {
-  "name": "@nodedk/pojo",
+  "name": "@nodedk/struct",
   "version": "0.2.0",
-  "description": "NodeDK POJO",
+  "description": "NodeDK struct",
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "main": "index.js",
   "scripts": {
     "test": "node --test spec/tests/**/*.test.js",
     "test:watch": "nodemon --exec 'npm test'"
   },
-  "homepage": "https://github.com/nodedk/pojo#readme",
+  "homepage": "https://github.com/nodedk/struct#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodedk/pojo.git"
+    "url": "git+https://github.com/nodedk/struct.git"
   },
   "bugs": {
-    "url": "https://github.com/nodedk/pojo/issues"
+    "url": "https://github.com/nodedk/struct/issues"
   },
   "dependencies": {
     "lodash": "^4.17.23"
